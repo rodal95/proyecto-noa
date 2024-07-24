@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía Completa de CSS Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Guía Completa de CSS Grid</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Introducción a CSS Grid</h2>
+            <p>CSS Grid Layout es un sistema de diseño bidimensional que permite la creación de layouts complejos y responsivos en la web de manera sencilla. A continuación, exploraremos los conceptos fundamentales y avanzados de CSS Grid.</p>
+        </section>
+        <section id="grid-container">
+            <h2>Contenedor de Grid</h2>
+            <p>Para empezar a usar CSS Grid, necesitamos definir un contenedor de grid. Esto se hace aplicando la propiedad <code>display: grid;</code> a un elemento.</p>
+            <div class="grid-container example">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+            </div>
+        </section>
+        <section id="grid-template">
+            <h2>Definiendo Columnas y Filas</h2>
+            <p>Las propiedades <code>grid-template-columns</code> y <code>grid-template-rows</code> se utilizan para definir las columnas y filas del grid.</p>
+            <div class="grid-template example">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+            </div>
+        </section>
+        <section id="grid-gap">
+            <h2>Espaciado entre Elementos</h2>
+            <p>La propiedad <code>gap</code> (o <code>grid-gap</code>) se utiliza para añadir espaciado entre las filas y columnas del grid.</p>
+            <div class="grid-gap example">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+            </div>
+        </section>
+        <section id="grid-area">
+            <h2>Áreas de Grid</h2>
+            <p>Las áreas de grid permiten asignar nombres a secciones del grid y luego posicionar los elementos en esas áreas usando el nombre asignado.</p>
+            <div class="grid-area example">
+                <div class="header">Header</div>
+                <div class="sidebar">Sidebar</div>
+                <div class="content">Content</div>
+                <div class="footer">Footer</div>
+            </div>
+        </section>
+        <section id="alignment">
+            <h2>Alineación y Justificación</h2>
+            <p>Las propiedades <code>align-items</code>, <code>justify-items</code>, <code>align-content</code> y <code>justify-content</code> se utilizan para alinear y justificar los elementos del grid.</p>
+            <div class="alignment example">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
